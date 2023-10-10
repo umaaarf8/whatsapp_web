@@ -1,0 +1,340 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+.profilePopUp {
+    /* display: none; */
+    width: 0;
+    height: 94.70vh;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.profilePopUp_navBAr {
+    height: 107px;
+    width: 100%;
+    background-color: #008069;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 22px 17px 23px;
+}
+
+.profilePopUp_navBAr>h2 {
+    text-align: initial;
+    line-height: 23px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 28px;
+}
+
+.profilePopUp_profileUpload {
+    height: 210px;
+    margin: 28px 0 18px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+.profileUploadInnerData {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+    top: 35%;
+}
+
+.profileUploadInnerData>p {
+    margin-top: 10px;
+    font-size: 13px;
+    color: #FFFFFFCC;
+    width: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.profilePopUp_profileName {
+    height: 88.4px;
+    padding: 14px 30px 10px;
+    margin-bottom: 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.profilePopUp_profileName {
+    color: #008069;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+.profilePopUp_profileName>form {
+    width: 100%;
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profilePopUp_profileName>form>input {
+    width: 92%;
+    height: 28px;
+}
+
+.profilePopUp_guidelines {
+    font-size: 14px;
+    color: #667781;
+    width: 90%;
+    line-height: 1.4286;
+    font-weight: normal;
+    margin: 4px 20px 32px 30px;
+}
+
+.profilePopUp_statusText {
+    height: 88.4px;
+    padding: 14px 30px 10px;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    color: #008069;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.2;
+}
+
+
+.profilePopUp_statusText>form {
+    width: 100%;
+    padding-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.profilePopUp_statusText>form>input {
+    width: 92%;
+    height: 28px;
+}
+
+.threeDotsPopUp {
+    display: none;
+    position: absolute;
+    width: 193.7px;
+    height: 307px;
+    padding: 5px 0;
+    background-color: #fff;
+    top: 53px;
+    right: 21px;
+    border-radius: 3px;
+    box-shadow: 0px 1px 11px 2px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.threeDotsPopUp li {
+    list-style-type: none;
+    padding-right: 58px;
+    padding-left: 24px;
+    padding-top: 15px;
+    padding: 15px 24px 15px 24px;
+    cursor: pointer;
+}
+
+.threeDotsPopUp li:hover {
+    background-color: #f5f6f6;
+}
+
+.threeDotsPopUp li a {
+    font-size: 14.5px;
+    line-height: 14.5px;
+    color: #3b4a54;
+}
+
+
+
+/* Communities PopUp */
+
+.communitiesPopUp {
+    /* display: none; */
+    width: 0;
+    height: 94.70vh;
+    float: left;
+    border-right: 1px solid rgba(0, 0, 0, 0.1);
+    position: fixed;
+    z-index: 1;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+
+}
+
+.communitiesPopUp_navBAr {
+    height: 107px;
+    width: 100%;
+    background-color: #008069;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 22px 17px 23px;
+}
+
+.communitiesPopUp_navBAr>h2 {
+    text-align: initial;
+    line-height: 23px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #fff;
+    margin-left: 28px;
+}
+
+
+.communityBody_Mid {
+    width: 90%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 70px auto;
+}
+
+.communityBody_Mid>h2 {
+    font-size: 24px;
+    margin-top: 24px;
+    color: #111B21;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.communityBody_Mid>p {
+    margin: 8px auto 0;
+    max-width: 20em;
+    font-size: 14px;
+}
+
+.communityBodyDiv>button {
+    border-radius: 24px;
+    padding: 10px 24px;
+    background-color: #008069;
+    color: #fff;
+    line-height: 1.1429;
+    font-weight: 500;
+    font-size: 0.875rem;
+    margin: 0 auto 32px;
+}
+
+.communityBodyDiv {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.communityBody_Mid>p>a {
+    color: #53bdeb;
+}
+
+.communityBody_Mid>p>a:hover {
+    text-decoration: underline;
+}
+
+/* Log Out */
+
+.logOutPopUp{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    /* padding-top: 100px; */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.logOutContentBox{
+    margin: auto;
+    width: 35%;
+    max-height: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 17px 50px 0 rgba(11,20,26,.19),0 12px 15px 0 rgba(11,20,26,.24);
+    padding:22px 24px 20px;
+    border-radius: 3px;
+    color: #3b4a54;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
+
+
+.logOutContentBox>h2{
+    text-align: left;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.25;
+    margin-bottom: 20px;
+}
+
+.logOutContentBox>p{
+    line-height: 1.43;
+    font-size: 0.875rem;
+    white-space: normal;
+}
+
+.logout_Buttons{
+    padding: 50px 5px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logout_Buttons>button{
+    padding: 10px 24px;
+    border-radius: 24px;
+    margin-left: 16px;
+    border: 1px solid #e9edef;
+    line-height: 1.1429;
+    font-weight: 500;
+    font-size: 0.875rem;
+    outline-offset: 2px;
+    cursor: pointer;
+}
+
+.logout_Buttons>a{
+    padding: 10px 24px;
+    border-radius: 24px;
+    margin-left: 16px;
+    border: 1px solid #e9edef;
+    line-height: 1.1429;
+    font-weight: 500;
+    font-size: 0.875rem;
+    outline-offset: 2px;
+    cursor: pointer;
+}
+
+.logout_cancelbtn{
+    background-color: transparent;
+    color: #008069;
+
+}
+
+.logout_logoutbtn{
+    background-color: #008069;
+    color: #fff;
+}

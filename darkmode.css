@@ -1,0 +1,132 @@
+.dark_mode .personDetailMidDiv>h2,
+.dark_mode .messegesMainDiv_archived>h4,
+.dark_mode .shortMsgIcon>p,
+.dark_mode .endToendEncrypted>p,
+.dark_mode .leftSideContainer{
+    color: #aebac1;
+    border-color: #000;
+}
+
+.dark_mode .bg_Div {
+    background-color: #0c1317;
+}
+
+
+.dark_mode .whatsappMainDiv {
+    background-color: #0c1317;
+    background-image: none;
+}
+
+.dark_mode .rightSideContainer,
+.dark_mode .leftDivNavBar {
+    background-color: #222e35;
+}
+
+
+.dark_mode .background_navBarProfile,
+.dark_mode .background_personMessege{
+    fill: #6a7175;
+}
+
+.dark_mode .leftDiv_searchBar,
+.dark_mode .leftDiv_messegesMainDiv {
+    background-color: #111b21;
+}
+
+.dark_mode .leftDiv_searchBar>input {
+    background-color: #202c33;
+    color: #aebac1;
+
+}
+
+.dark_mode .bannerOfMesseges,
+.dark_mode .personDetails {
+    border-color: rgba(134, 150, 160, 0.15);
+    
+}
+
+.dark_mode .personMessege:hover{
+    background-color: #2a3942;
+}
+
+.dark_mode  ::-webkit-scrollbar-track {
+    background: #111b21;
+}
+
+.dark_mode  ::-webkit-scrollbar-thumb  {
+    background: #374045;
+}
+
+.dark_mode .upper_color{
+    fill: #7d8488;
+}
+
+.dark_mode .endToendEncrypted_Icon{
+    fill: #d1d7db;
+}
+
+.dark_mode .rightDiv_defaultScreen>h1 {
+    color: rgba(205, 210, 213, 1);
+}
+
+.dark_mode .rightDiv_defaultScreen>p {
+    color: #8696a0;
+}
+
+.dark_mode .rightDiv_defaultScreen,
+.dark_mode .profilePopUp_navBAr {
+    border-color: #008069;
+}
+
+
+.dark_mode .profilePopUp_navBAr,
+.dark_mode .profilePopUp_profileName,
+.dark_mode .profilePopUp_profileName > form > input,
+.dark_mode .profilePopUp_statusText,
+.dark_mode .profilePopUp_statusText > form > input {
+    background-color: #202c33;
+    color: #aebac1;
+
+}
+
+.dark_mode .profilePopUp_profileUpload,
+.dark_mode .profilePopUp  {
+    background-color: #111b21;
+}
+
+.dark_mode .threeDotsPopUp {
+    background-color: #233138;
+}
+
+.dark_mode .bannerOfMesseges{
+    background-color: rgba(12, 19, 23, 1);
+}
+
+.dark_mode .threeDotsPopUp li a {
+    color: #d1d7db;
+}
+
+.dark_mode .threeDotsPopUp li:hover{
+    background-color: #182229;
+}
+
+.dark_mode .communitiesPopUp_navBAr{
+    background-color: #202c33;
+}
+
+.dark_mode .communitiesPopUp{
+    background-color: #111b21;
+    color: #fff;
+}
+
+.dark_mode .logOutContentBox {
+    background-color: #3b4a54;
+    color: #d1d7db;
+}
+
+.dark_mode .logout_logoutbtn{
+    color: #000;
+}
+.dark_mode .logOutPopUp{
+    background-color: rgba(0, 0, 0, 0.5);
+}

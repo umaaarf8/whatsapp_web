@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: 0;
+    border: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.bodyMainContainer {
+    height: 100%;
+    width: 100%;
+    background-color: #eae6df;
+
+}
+
+.mainWrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 70px;
+}
+
+.bg_bottom {
+    height: 100vmax;
+    background-color: #e9ecef;
+}
+
+.bg_topGreenBar {
+    height: 222px;
+    width: 100%;
+    padding: 0 36px 92px;
+    background-color: #00a884;
+}
+
+.mainLogo {
+    padding: 27px 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.mainLogo>p {
+    margin-left: 14px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.landingPageMainDiv {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+    color: #3b4a54;
+    border-radius: 3px;
+    box-shadow: 0px 0px 12px 1px rgba(0, 0, 0, 0.5);
+
+}
+
+.landingPageTopContainer {
+    padding: 64px 60px 60px;
+
+}
+
+.LandingPage_firstBox {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 40px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.LandingPage_leftSide {
+    width: 60%;
+}
+
+.LandingPage_leftSide>h2 {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: normal;
+    color: #41525d;
+    margin-bottom: 48px;
+}
+
+.leftContainContent {
+    padding-left: 24px;
+}
+
+.leftContainContent>li {
+    color: #3b4a54;
+    margin-bottom: 20px;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.LandingPage_midBox {
+    margin-top: 40px;
+}
+
+.LandingPage_midBox>a {
+    padding-top: 20px;
+    color: #008069;
+    font-size: 18px;
+    line-height: 1;
+}
+
+
+.landingPageBottomContainer {
+    width: 100%;
+    padding: 40px 60px;
+    background-color: rgba(11, 20, 26, .025);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+
+}
+
+.landingPageBottomContainer>h2 {
+    margin-bottom: 16px;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: normal;
+    color: #41525d;
+}
+
+.guidanceVideo {
+    width: 560px;
+    height: 314px;
+}
+
+.playBtn {
+    display: none;
+    height: 80px;
+    width: 80px;
+    background-color: #41525d;
+    opacity: 0.45;
+    position: absolute;
+    top: 50%;
+    border-radius: 50%;
+}
+
+.playBtn>svg {
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+
+.landingPageBottomContainer>a {
+    color: #008069;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.landingPageBottomContainer>a:hover {
+    text-decoration: underline;
+}
+
+.landingPageBottomContainer>video {
+    width: 540px;
+    height: 314px;
+}
